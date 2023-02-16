@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <div>
+        <h2>Create Account</h2>
+
+        <label> Nombre <br>
+        <input id="nombre" type="text"></label>  
+        <img src="imagenes/error-icon.svg" id="icono-nombre-err" class="icono">
+        <img src="imagenes/success-icon.svg" id="icono-nombre-ok" class="icono">
+        <p id="msg-nombre"></p><br>
+
+
+        <label> Email <br>
+        <input id="email" type="text"></label>
+        <img src="imagenes/error-icon.svg" id="icono-email-err" class="icono">
+        <img src="imagenes/success-icon.svg" id="icono-email-ok" class="icono">
+        <p id="msg-email"></p><br>
+
+        
+
+        <label> Clave <br>
+        <input id="clave" type="password"></label>
+        <img src="imagenes/error-icon.svg" id="icono-clave-err" class="icono">
+        <img src="imagenes/success-icon.svg" id="icono-clave-ok" class="icono">
+        <p id="msg-clave"></p><br>
+
+        <label> Confirme su clave <br>
+        <input id="clave2" type="password"></label>
+        <img src="imagenes/error-icon.svg" id="icono-clave2-err" class="icono">
+        <img src="imagenes/success-icon.svg" id="icono-clave2-ok" class="icono">
+        <p id="msg-clave2"></p>
+
+        <button onclick="enviar()" class="envio">Enviar</button>
+  </div>
+</body>
+</html>

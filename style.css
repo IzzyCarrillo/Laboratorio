@@ -1,0 +1,64 @@
+.icono {
+    margin-left: -20px;
+    border-radius: 100px;
+    color: white;
+    display: none;
+    height:15px;
+  }
+
+html{
+    height: 100%;
+    width: 100%;    
+}
+
+
+body{
+    background-color: #1C2833;
+    color: rgb(103, 133, 189);
+    font-family: Courier;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+h2{
+    color: rgb(133, 152, 189);
+    margin:10px 0;
+    width: 80%;
+    padding: 5px;
+    
+}
+
+div{
+    width: 400px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #35495d;
+    margin: auto;
+    padding: 20px 30px;    
+    border: 2px solid #686897;
+    }
+
+input{
+        width: 80%;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 4px;
+        }
+    
+.envio{
+        width: 80%;
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(83, 83, 193);
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+    
+label{
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+}
